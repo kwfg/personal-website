@@ -54,7 +54,7 @@ ul > li {
 }
 
 .hero-img {
-  width: 40%;
+  width: 50%;
   height: 300px;
 }
 
@@ -202,6 +202,10 @@ ul > li {
   }
   .skill-box {
     flex-direction: column;
+  }
+  .skill-desc {
+    padding-top: 0.4em;
+    padding-left: 0.4em;
   }
   .box {
     justify-content: center;

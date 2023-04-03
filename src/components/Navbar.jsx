@@ -5,6 +5,7 @@ function Navbar() {
     <div>
       <nav>
         <div className="website-name">Gary Fung</div>
+
         <ul>
           <li></li>
           <li></li>
