@@ -18,7 +18,7 @@ function App() {
       <Hero />
       <Skills />
       <img src={CodeSolid} className="code-solid" />
-      <p className="project-intro">Projects</p>
+      <p className="project-intro">PROJECTS</p>
       <div className="project-box">{dataElement}</div>
       <Footer />
     </div>

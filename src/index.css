@@ -8,9 +8,6 @@ body {
   color: whitesmoke;
 }
 
-.container {
-}
-
 nav {
   height: 80px;
   background-color: #1d2430;
@@ -76,9 +73,9 @@ ul > li {
 }
 
 .project-intro {
-  margin-top: 0;
   text-align: center;
   font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
 }
 
 .skill-container {
@@ -90,6 +87,7 @@ ul > li {
 .skill-desc {
   text-align: center;
   font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
 }
 
 .skill-box {

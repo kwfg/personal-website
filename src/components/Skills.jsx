@@ -14,7 +14,7 @@ function Skills() {
   return (
     <div className="skill-container">
       <img src={Electronics} className="ele-img" />
-      <p className="skill-desc">Skills</p>
+      <p className="skill-desc">SKILLS</p>
       <div className="skill-box">
         <div className="box">
           <img src={html} />
