@@ -33,7 +33,7 @@ function Project({
         >
           Live Demo
         </a>
-        <a href={githubUrl} className="github">
+        <a href={githubUrl} className="github" target="_blank">
           Source Code
         </a>
       </div>
