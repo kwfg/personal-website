@@ -107,6 +107,7 @@ ul > li {
   width: 30px;
 }
 
+/*
 .project-box {
   display: flex;
   justify-content: center;
@@ -119,6 +120,24 @@ ul > li {
   max-width: 500px;
   height: 800px;
   text-align: center;
+  
+}
+*/
+.project-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* allows the cards to wrap to the next line */
+  gap: 1em;
+}
+
+.project-card {
+  padding: 2em;
+  border: 2px solid grey;
+  max-width: 500px;
+  height: 800px;
+  text-align: center;
+  flex: 1 1 50%;
 }
 
 .project-img {
