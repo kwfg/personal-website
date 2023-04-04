@@ -131,6 +131,8 @@ ul > li {
   align-items: center;
   flex-wrap: wrap; /* allows the cards to wrap to the next line */
   gap: 1em;
+  max-width: 1600px; /*limit the 3 cards on a row*/
+  margin: 0 auto;
 }
 
 .project-card {
@@ -138,9 +140,8 @@ ul > li {
   border: 2px solid grey;
   max-width: 500px;
   width: 400px;
-  height: 800px;
+  height: 750px;
   text-align: center;
-  flex: 1 1 50%;
 }
 
 .project-img {
