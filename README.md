@@ -1,6 +1,8 @@
 # personal-website
 A portfolio website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/744bffd7-9609-4c06-9cf1-f1bc3c3367a2/deploy-status)](https://app.netlify.com/sites/fascinating-tulumba-e40236/deploys)
+
 ![reactImg](https://user-images.githubusercontent.com/66684175/229860183-5bde3fa3-720e-4fd0-8050-ef0723d9385f.PNG)
 
 ![wargame](https://user-images.githubusercontent.com/66684175/229866581-1c288413-d769-43c5-baac-571ca3a5a314.PNG)
