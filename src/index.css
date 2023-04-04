@@ -54,6 +54,8 @@ ul > li {
 }
 
 .hero-img {
+  padding-top: 2em;
+  padding-right: 3em;
   width: 50%;
   height: 300px;
 }
@@ -279,6 +281,7 @@ ul > li {
   }
   .hero-img {
     width: 100%;
+    padding: 1em 0;
   }
   .skill-container {
     margin: 0;
