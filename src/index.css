@@ -221,7 +221,8 @@ ul > li {
 }
 
 /*btn*/
-a:hover {
+.live:hover,
+.github:hover {
   color: red;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
