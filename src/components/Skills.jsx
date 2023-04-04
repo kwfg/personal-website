@@ -9,6 +9,7 @@ import react from "../images/icon/react.png";
 import java from "../images/icon/java.png";
 import figma from "../images/icon/figma.png";
 import node from "../images/icon/node.png";
+import github from "../images/github.png";
 
 function Skills() {
   return (
@@ -39,6 +40,9 @@ function Skills() {
         </div>
         <div className="box">
           <img src={java} />
+        </div>
+        <div className="box">
+          <img src={github} />
         </div>
         <div className="box">
           <img src={figma} />

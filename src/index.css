@@ -135,6 +135,7 @@ ul > li {
   padding: 2em;
   border: 2px solid grey;
   max-width: 500px;
+  width: 400px;
   height: 800px;
   text-align: center;
   flex: 1 1 50%;
@@ -157,12 +158,53 @@ ul > li {
 
 .project-skill {
   font-size: 1.5em;
+  background-color: #1d2430;
 }
 
 .project-desc {
   height: 200px;
   max-width: 450px;
   padding-bottom: 0.5em;
+}
+
+.project-skill > span {
+  font-size: 1rem;
+  padding: 0 0.25em;
+  margin: 0 0.01em;
+}
+
+.HTML {
+  border: 2px solid rgb(179, 49, 66);
+}
+.CSS {
+  border: 2px solid rgb(44, 119, 195);
+}
+.PHP {
+  border: 2px solid rgb(72, 101, 120);
+}
+.Boostrap {
+  border: 2px solid rgb(170, 64, 192);
+}
+.GoogleChart {
+  border: 2px solid rgb(255, 255, 255);
+}
+.API {
+  border: 2px solid rgb(60, 230, 51);
+}
+.NodeJS {
+  border: 2px solid rgb(13, 85, 10);
+}
+.ReactJS {
+  border: 2px solid rgb(90, 146, 184);
+}
+.Kotlin {
+  border: 2px solid rgb(148, 49, 219);
+}
+.JavaScript {
+  border: 2px solid rgb(208, 255, 0);
+}
+.SASS {
+  border: 2px solid rgb(118, 40, 88);
 }
 
 .live,
@@ -172,6 +214,22 @@ ul > li {
   margin-right: 0.5em;
   text-decoration: none;
   color: whitesmoke;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+/*btn*/
+a:hover {
+  color: red;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
+  background-color: #008080;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+  border-radius: 5px;
 }
 
 /*footer*/
