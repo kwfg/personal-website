@@ -211,6 +211,9 @@ ul > li {
     padding-top: 0.4em;
     padding-left: 0.4em;
   }
+  .project-card {
+    margin-top: 1em;
+  }
   .box {
     justify-content: center;
     margin-left: 1.8em;
