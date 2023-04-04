@@ -180,11 +180,12 @@ ul > li {
 }
 
 @media (max-width: 768px) {
+  html,
   body {
     overflow-x: hidden; /*disable the horizontal scrolling on a mobile device*/
   }
   nav {
-    width: 100vh;
+    width: 600px;
   }
   .intro {
     width: 100%;
@@ -215,6 +216,6 @@ ul > li {
     margin-left: 1.8em;
   }
   .footer-conitainer {
-    width: 100vh;
+    width: 600px;
   }
 }
