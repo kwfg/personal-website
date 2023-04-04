@@ -185,7 +185,7 @@ ul > li {
     overflow-x: hidden; /*disable the horizontal scrolling on a mobile device*/
   }
   nav {
-    width: 600px;
+    width: 100%;
   }
   .intro {
     width: 100%;
@@ -219,6 +219,6 @@ ul > li {
     margin-left: 1.8em;
   }
   .footer-conitainer {
-    width: 600px;
+    width: 100%;
   }
 }
