@@ -108,10 +108,9 @@ ul > li {
 }
 
 .project-box {
-  display: grid;
-
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  justify-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
 }
 
 .project-card {
@@ -213,6 +212,11 @@ ul > li {
   }
   .project-card {
     margin-top: 1em;
+  }
+  .project-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-items: center;
   }
   .box {
     justify-content: center;
