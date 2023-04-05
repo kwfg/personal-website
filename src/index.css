@@ -215,6 +215,12 @@ ul > li {
 .SASS {
   border: 2px solid rgb(118, 40, 88);
 }
+.MongoDB {
+  border: 2px solid rgb(44, 103, 40);
+}
+.MySQL {
+  border: 2px solid rgb(230, 73, 30);
+}
 
 .live,
 .github {

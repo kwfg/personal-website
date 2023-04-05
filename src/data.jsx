@@ -18,7 +18,7 @@ export default [
       "The project was developed based on the concept of a smart district and is designed to improve daily work efficiency. Project focuses on the development of market and centralized data processing systems.",
     githubUrl: "https://github.com/gakary/MarketSmartBuy",
     liveUrl: "",
-    skill: ["HTML", "CSS", "PHP", "API"],
+    skill: ["HTML", "CSS", "PHP", "API", "MySQL"],
     isLive: false,
   },
   {
@@ -28,9 +28,9 @@ export default [
     description:
       "The system is used to book to apply or replace the id card. (security project)",
     githubUrl: "https://github.com/gakary/idcard-booking-system",
-    liveUrl: "",
-    skill: ["HTML", "CSS", "PHP"],
-    isLive: false,
+    liveUrl: "http://id-booking-system.epizy.com/index.php",
+    skill: ["HTML", "CSS", "PHP", "MySQL"],
+    isLive: true,
   },
   {
     projectImg:
@@ -39,7 +39,7 @@ export default [
     description: "A restful API - Film Website",
     githubUrl: "https://github.com/gakary/Restful_WebAPI",
     liveUrl: "",
-    skill: ["NodeJS"],
+    skill: ["NodeJS", "MongoDB"],
     isLive: false,
   },
   {
