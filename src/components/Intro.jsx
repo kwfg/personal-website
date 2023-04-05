@@ -1,7 +1,6 @@
 import React from "react";
-import coverImg from "../images/hero.gif";
 
-function intro() {
+function Intro() {
   return (
     <div className="intro">
       <p className="intro-name">Hi, my name is Gary</p>
@@ -16,4 +15,4 @@ function intro() {
   );
 }
 
-export default intro;
+export default Intro;
