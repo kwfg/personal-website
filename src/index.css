@@ -54,10 +54,11 @@ ul > li {
 }
 
 .hero-img {
-  padding-top: 2em;
-  padding-right: 3em;
+  padding-top: 3em;
+  padding-right: 2em;
   width: 50%;
-  height: 300px;
+  height: 400px;
+  border-radius: 100px;
 }
 
 .website-name {
