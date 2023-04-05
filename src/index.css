@@ -28,9 +28,10 @@ ul > li {
 
 .hero-container {
   display: flex;
-  margin: 2em;
+  margin: 4em;
   align-items: center;
   margin-bottom: 5em;
+  padding-right: 2em;
 }
 
 .intro {
@@ -54,11 +55,10 @@ ul > li {
 }
 
 .hero-img {
-  padding-top: 3em;
-  padding-right: 2em;
   width: 50%;
-  height: 400px;
+  height: 350px;
   border-radius: 100px;
+  border: 2px solid salmon;
 }
 
 .website-name {
@@ -281,10 +281,11 @@ ul > li {
   }
   .hero-container {
     display: block;
+    padding-right: 0em;
   }
   .hero-img {
     width: 100%;
-    padding: 1em 0;
+    margin: 2em 0;
   }
   .skill-container {
     margin: 0;
