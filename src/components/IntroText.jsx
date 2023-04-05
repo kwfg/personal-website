@@ -1,6 +1,6 @@
 import React from "react";
 
-function Intro() {
+function IntroText() {
   return (
     <div className="intro">
       <p className="intro-name">Hi, my name is Gary</p>
@@ -15,4 +15,4 @@ function Intro() {
   );
 }
 
-export default Intro;
+export default IntroText;
