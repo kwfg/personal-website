@@ -1,4 +1,5 @@
 import React from "react";
+import NavbarLink from "./NavbarLink";
 
 function Navbar() {
   return (
@@ -6,10 +7,7 @@ function Navbar() {
       <nav>
         <div className="website-name">Gary Fung</div>
 
-        <ul>
-          <li></li>
-          <li></li>
-        </ul>
+        <NavbarLink />
       </nav>
     </div>
   );

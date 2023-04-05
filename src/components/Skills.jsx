@@ -11,43 +11,14 @@ import figma from "../images/icon/figma.png";
 import node from "../images/icon/node.png";
 import github from "../images/github.png";
 
+import SkillsIcon from "./SkillsIcon";
+import SkillsBox from "./SkillsBox";
+
 function Skills() {
   return (
     <div className="skill-container">
-      <img src={Electronics} className="ele-img" />
-      <p className="skill-desc">SKILLS</p>
-      <div className="skill-box">
-        <div className="box">
-          <img src={html} />
-        </div>
-        <div className="box">
-          <img src={css} />
-        </div>
-        <div className="box">
-          <img src={javascript} />
-        </div>
-        <div className="box">
-          <img src={php} />
-        </div>
-        <div className="box">
-          <img src={mysql} />
-        </div>
-        <div className="box">
-          <img src={react} />
-        </div>
-        <div className="box">
-          <img src={node} />
-        </div>
-        <div className="box">
-          <img src={java} />
-        </div>
-        <div className="box">
-          <img src={github} />
-        </div>
-        <div className="box">
-          <img src={figma} />
-        </div>
-      </div>
+      <SkillsIcon />
+      <SkillsBox />
     </div>
   );
 }
