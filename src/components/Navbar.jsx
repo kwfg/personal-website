@@ -3,7 +3,7 @@ import NavbarLink from "./NavbarLink";
 
 function Navbar() {
   return (
-    <div>
+    <div className="NavDiv">
       <nav>
         <div className="website-name">Gary Fung</div>
 
