@@ -1,5 +1,5 @@
 import React from "react";
-import Github from "../images/github.png";
+import Github from "../images/github-ani.gif";
 
 function Extra() {
   return (
