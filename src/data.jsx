@@ -6,7 +6,7 @@ export default [
     description:
       "Blog content management system (CMS) with the CRUD features. In addition, through simple Security information and event management (SIEM) to monitoring the whole website (collect logs, events), and detected Cross-site scripting (XSS), SQL Injection, Spam script. Then process some analysis and catch visitor details information.",
     githubUrl: "https://github.com/gakary/blogSiem",
-    liveUrl: "http://garygary.co/index_real.php",
+    liveUrl: "http://garygary.co/index.php",
     skill: ["HTML", "CSS", "PHP", "Boostrap", "GoogleChart", "API"],
     isLive: true,
   },
