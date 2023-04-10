@@ -144,4 +144,26 @@ export default [
     skill: ["CSS", "ReactJS", "API"],
     isLive: true,
   },
+  {
+    projectImg:
+      "https://user-images.githubusercontent.com/66684175/230899639-d6f8440f-a213-47e6-a8ce-92b91951986a.PNG",
+    title: "Food Ordering",
+    description:
+      "A Javascript exercise that orders the food and counts the total price, then purchases.",
+    githubUrl: "https://github.com/gakary/restaurant-orderingApp",
+    liveUrl: "https://graceful-hamster-1b964c.netlify.app/",
+    skill: ["HTML", "CSS", "JavaScript"],
+    isLive: true,
+  },
+  {
+    projectImg:
+      "https://user-images.githubusercontent.com/66684175/230899651-b3e5938a-65a1-404f-932c-e48a39d96345.PNG",
+    title: "Role Game",
+    description:
+      "A Javascript exercise that hero fighting with demons simple game.",
+    githubUrl: "https://github.com/gakary/rolePlaying-game",
+    liveUrl: "https://gregarious-blancmange-1551e8.netlify.app/",
+    skill: ["HTML", "CSS", "JavaScript"],
+    isLive: true,
+  },
 ];
