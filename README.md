@@ -14,3 +14,7 @@ A portfolio website
 ![tingdog](https://user-images.githubusercontent.com/66684175/229869488-f7929025-9b5c-47d9-89b5-3b82e8c825d2.PNG)
 
 ![memegen](https://user-images.githubusercontent.com/66684175/229871481-eef4c352-2011-4f5c-8c12-9f9ce71984e2.PNG)
+
+![food](https://user-images.githubusercontent.com/66684175/230899639-d6f8440f-a213-47e6-a8ce-92b91951986a.PNG)
+
+![role](https://user-images.githubusercontent.com/66684175/230899651-b3e5938a-65a1-404f-932c-e48a39d96345.PNG)
