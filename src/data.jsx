@@ -115,6 +115,17 @@ export default [
   },
   {
     projectImg:
+      "https://user-images.githubusercontent.com/66684175/230964110-b146791d-fa9d-4c74-98c2-33001775dbe7.PNG",
+    title: "workTabs",
+    description:
+      "A Google Chrome extension is used to bookmark websites for today's work.",
+    githubUrl: "https://github.com/gakary/workTabs",
+    liveUrl: "",
+    skill: ["HTML", "CSS", "JavaScript"],
+    isLive: false,
+  },
+  {
+    projectImg:
       "https://user-images.githubusercontent.com/66684175/229868304-0efb8dfe-b2d6-4210-9597-abf707183652.PNG",
     title: "colorSchemeGenerator",
     description: "Genera the colour scheme via thecolorAPI",
