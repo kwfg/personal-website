@@ -8,7 +8,7 @@ export default [
     githubUrl: "https://github.com/gakary/blogSiem",
     liveUrl: "http://garygary.co/index.php",
     skill: ["HTML", "CSS", "PHP", "Boostrap", "GoogleChart", "API"],
-    isLive: true,
+    isLive: false,
   },
   {
     projectImg:
@@ -30,7 +30,7 @@ export default [
     githubUrl: "https://github.com/gakary/idcard-booking-system",
     liveUrl: "http://id-booking-system.epizy.com/index.php",
     skill: ["HTML", "CSS", "PHP", "MySQL"],
-    isLive: true,
+    isLive: false,
   },
   {
     projectImg:
