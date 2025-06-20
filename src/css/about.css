@@ -1,0 +1,115 @@
+.about-container{
+    margin:3rem;
+    
+}
+
+.about-heading{
+    margin-left:3.5rem;
+    color:#9971b6;
+}
+
+
+.about-me{
+    display:flex;
+    justify-content: space-around;
+    width:50%;
+    margin:0 4rem;
+}
+
+.about-intro{
+    font-size:1.1rem;
+    font-family: "Numans", sans-serif;
+}
+
+.about-skills-header{
+    display:flex;
+    width:50%;
+    margin:0 4rem;
+    justify-content: space-between;
+    color:#afa99e;
+}
+
+.about-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 1rem 4rem;
+}
+
+.my-icon{
+    font-size:2rem;
+    padding-right:2rem;
+    padding-top:1rem;
+}
+
+.about-comfortable ,.about-learning{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    margin: 2rem 1rem;
+  }
+
+  .about-heading {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .about-me {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 1rem;
+  }
+
+  .about-intro {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-skills-header {
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .about-icons {
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    gap: 1rem;
+  }
+
+  .about-comfortable,
+  .about-learning {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .my-icon {
+    font-size: 2rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .about-me, .about-skills-header {
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-comfortable,
+  .about-learning {
+    justify-content: space-around;
+    width: 100%;
+  }
+}
