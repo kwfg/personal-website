@@ -75,6 +75,8 @@ public function attachments(): array
 
 ## 5. Configure Email Settings
 
+You have 2 options to configure:
+
 In `.env`:
 
 ```env
@@ -109,6 +111,7 @@ Route::get('test', function() {
 Go to `/test` in your browser.
 
 ---
+
 
 ![TestMail](/images/laravel-send-mail/3.png)
 

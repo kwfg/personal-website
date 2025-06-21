@@ -1,4 +1,5 @@
 import '../css/about.css';
+import { IoMdMail } from "react-icons/io";
 
 
 function About() {
@@ -40,8 +41,13 @@ function About() {
 
         </div>  
       </div>
-      {/*<h1 className="about-heading">Contacts</h1>
-      <h3 className="about-email">Email:</h3>*/}
+      <h1 className="about-heading">Contacts</h1>
+      <div className="about-email-container">
+        <p className="about-email-title" aria-label="email"><IoMdMail /></p>
+        <a className="about-email" href="mailto:gary@garykw.com">gary@garykw.com</a>
+    </div>
+
+       
     </div>
 
   );
