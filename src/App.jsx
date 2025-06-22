@@ -80,7 +80,7 @@ function App() {
 
         {/* （Dynamic project routes） */}
         <Route path="/projects/:slug" element={<ProjectDetailPage />} />
-
+        <Route path="/404" element={<NotFound />} />
         <Route path="*" element={<NotFound />} />
 
       </Routes>
