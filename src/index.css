@@ -9,10 +9,8 @@ html, body {
 body {
   margin: 0;
     font-family:
-    "IBM Plex Sans", /* english */
-    "Noto Sans TC",  /* chinese */
-    "PingFang TC",   /* macOS */
-    "Microsoft JhengHei", /* Windows */
+    "IBM Plex Sans",
+    "Noto Sans TC",
     sans-serif;
   background-color: #101521;
   color: whitesmoke;
