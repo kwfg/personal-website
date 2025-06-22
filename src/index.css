@@ -89,6 +89,10 @@ ul > li {
   border-style: solid;
   border-image: linear-gradient(to right, #06c1d4, #127ba3) 1;
   background-color: rgb(253, 18, 241);
+  /*
+  border-image: linear-gradient(to right, #06c1d4, rgb(253, 18, 241)) 1;
+  background-color: #00ffc3;
+  */
 }
 
 .website-name {
