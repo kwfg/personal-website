@@ -14,14 +14,22 @@ function ArticlePost() {
   useEffect(() => {
     fetch(`/posts/${slug}.md`)
       .then((res) => {
-        if (!res.ok) throw new Error("File not found");
+        // always return status 200 , but the content not must be correct
         return res.text();
       })
-      .then(setContent)
+      .then(text => {
+        // if HTML then redirect
+        if (text.startsWith("<!DOCTYPE html>")) {
+          // if index.html instead of .md，redirect 404
+          navigate("/404", { replace: true });
+        } else {
+          setContent(text);
+        }
+      })
       .catch(() => {
-      navigate("/404");
-    });
-  }, [slug , navigate]);
+        navigate("/404", { replace: true });
+      });
+  }, [slug, navigate]);
 
   return (
     <div className="article-post">
