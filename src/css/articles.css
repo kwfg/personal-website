@@ -1,4 +1,5 @@
 .latest-articles {
+  font-family: "IBM Plex Mono", monospace;
   margin: 4rem 2rem;
   padding-top:2rem;
 }
@@ -69,6 +70,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.articles-page > h1{
+  font-family: "IBM Plex Mono", monospace;
 }
 
 .articles-page h1 {

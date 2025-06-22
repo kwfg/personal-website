@@ -8,7 +8,7 @@ html, body {
 
 body {
   margin: 0;
-  font-family: "Hina Mincho", serif;
+  font-family: "IBM Plex Sans", sans-serif;
   background-color: #101521;
   color: whitesmoke;
 }
@@ -70,13 +70,15 @@ ul > li {
 }
 
 .intro-name {
-  font-size: 3rem;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 2.6rem;
   margin: 0;
 }
 
 .intro-desc {
+  font-family: "IBM Plex Sans", sans-serif;
   color: #747a86;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0;
   font-weight: 700;
 }
@@ -112,7 +114,7 @@ ul > li {
 .project-intro {
   text-align: center;
   font-size: 1.5rem;
-  font-family: "Inter", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 .skill-container {
@@ -124,7 +126,7 @@ ul > li {
 .skill-desc {
   text-align: center;
   font-size: 1.5rem;
-  font-family: "Inter", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .skill-box {
@@ -209,6 +211,7 @@ ul > li {
 }
 
 .project-name {
+  font-family: "IBM Plex Mono", monospace;
   font-size: 1.3rem;
   padding-top: 0.2em;
   padding-bottom: 0.5em;
@@ -245,7 +248,7 @@ ul > li {
   max-width: 450px;
   padding-bottom: 0.5em;
   font-size: 1rem;
-  font-family: "Inter", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   line-height: 1.4rem;
   height: 200px;
   overflow: hidden;
@@ -342,6 +345,7 @@ ul > li {
   font-size: 0.9rem;
   border-radius: 4px;
   display: inline-block;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .read-more-btn{
@@ -377,6 +381,7 @@ ul > li {
 }
 
 .filter-btn {
+  font-family: "IBM Plex Sans", sans-serif;
   background: transparent;
   color: white;
   border: 1px solid #ccc;
@@ -409,6 +414,7 @@ ul > li {
 }
 
 .featured-title {
+  font-family: "IBM Plex Mono", monospace;
   font-size: 2rem;
   font-weight: bold;
   margin: 1rem 0;

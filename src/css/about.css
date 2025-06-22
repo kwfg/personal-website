@@ -1,7 +1,8 @@
-.about-container{
-    margin:3rem;
-    
+.about-container {
+  margin: 3rem auto;
+
 }
+
 
 .about-heading{
     margin-left:3.5rem;
@@ -17,8 +18,8 @@
 }
 
 .about-intro{
-    font-size:1.1rem;
-    font-family: "Numans", sans-serif;
+    font-size:1.2rem;
+
 }
 
 .about-skills-header{
@@ -93,6 +94,7 @@
   .about-intro {
     font-size: 1rem;
     margin-bottom: 1rem;
+    
   }
 
   .about-skills-header {
@@ -123,7 +125,8 @@
   }
   .about-email-container {
     margin-left: 1.5rem;
-    justify-content: flex-start;
+    display:flex;
+    justify-content: center;
   }
 
 
