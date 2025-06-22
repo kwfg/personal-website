@@ -7,7 +7,7 @@ function About() {
     <div className="about-container">
       <h1 className="about-heading">More about me</h1>
       <div className="about-me">
-        <p className="about-intro">I enjoy creating cool stuff and figuring things, I love learning, improving bit by bit, and turning ideas into real things. No pressure, just passion.</p>
+        <p className="about-intro">I enjoy creating cool stuff and figuring things out. I love learning, improving bit by bit, and turning ideas into real things. No pressure, just passion.</p>
       </div>
       <h1 className="about-heading">Skills</h1>
       <div className="about-skills-header">
