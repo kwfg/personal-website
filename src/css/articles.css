@@ -211,10 +211,12 @@
   .cover {
     display: none;
   }
-  .article-card{
-    height:300px;
+  .article-row, .article-card {
+    height: 300px;
+    overflow: hidden; /*avoid overflow*/
   }
   .article-row{
     height:250px;
   }
 }
+
