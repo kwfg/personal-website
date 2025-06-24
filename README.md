@@ -1,8 +1,11 @@
 
+
 # Personal Website
 
 A clean and responsive personal portfolio website built with **React** and **Vite**.  
 This site showcases my projects, skills, and background in web development.
+
+![screenshot_2025-06-24 095138](https://github.com/user-attachments/assets/0cece151-07a4-4eac-a86b-4a1c72c1dd73)
 
 >  Live Demo: [https://garykw.com](https://garykw.com)
 
