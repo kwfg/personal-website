@@ -334,6 +334,13 @@ ul > li {
   border: 2px solid rgb(253, 97, 183)
 }
 
+.GameQA,
+.LevelDesign,
+.Unity{
+  border: 2px solid rgb(122, 107, 121)
+}
+
+
 .live,
 .github,
 .read-more-btn {

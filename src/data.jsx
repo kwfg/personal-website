@@ -9,8 +9,8 @@ import foodOrderingImg from "./images/data-images/food-ordering.png"
 import memeGeneratorImg from "./images/data-images/meme-generator.png"
 import movieWatchlistImg from "./images/data-images/movie-watchlist.png"
 import pictureWebsiteImg from "./images/data-images/picture-website.png"
-
-
+import game1Img from "./images/data-images/game1.jpg"
+ 
 export default [
   
   {
@@ -21,9 +21,9 @@ export default [
     description: "An automation project for the game 'Gersang' using YOLOv4-tiny and OpenCV.",
     fullDescription: "An automation project for the game Gersang using YOLOv4-tiny and OpenCV. It detects in-game elements via a custom-trained object detection model, captures game window screenshots, and automates clicks for farming tasks.",
     githubUrl: "https://github.com/kwfg/yolov4-tiny-opencv-gersang-automation",
-    liveUrl: "",
+    liveUrl: "https://www.youtube.com/watch?v=k_GV45inPjE",
     skill: ["Python", "YOLOv4", "OpenCV","GoogleColab"],
-    isLive: false,
+    isLive: true,
     isFeatured: true,
   },
   {
@@ -53,6 +53,20 @@ export default [
   skill: ["React"],
   isLive: true,
   isFeatured: false,
+  },
+  {
+  slug: "backroom-loop",
+  type: "Game",
+  projectImg: game1Img,
+  title: "BACKROOM LOOP",
+  description: "A psychological horror game released on Steam.",
+  fullDescription:
+    "BACKROOM LOOP is a psychological horror game set in an endless office-like maze. I was involved in QA testing, bug reporting, and helped design puzzle flow and spatial layouts for several levels. This game is available on <a href='https://store.steampowered.com/app/3672540/BACKROOM_LOOP/' target='_blank'>Steam</a>.",
+  githubUrl: "",
+  liveUrl: "https://youtu.be/o5LWAysrkQQ",
+  skill: ["GameQA", "LevelDesign", "Unity"],
+  isLive: true,
+  isFeatured: true,
   },
   {
   slug: "merge-tabs",

@@ -30,7 +30,10 @@ function ProjectDetailPage() {
         alt={project.title}
       />
 
-      <p className="project-detail-description">{project.fullDescription}</p>
+      <div
+  className="project-detail-description"
+  dangerouslySetInnerHTML={{ __html: project.fullDescription }}
+/>
 
       <div>
         {project.githubUrl ? (
