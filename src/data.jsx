@@ -1,6 +1,15 @@
 import gersangImg from "./images/data-images/image-gersang.png";
 import mergeTabsImg from "./images/data-images/image-merge-tabs.jpg"
 import wonderWordsGamesImg from "./images/data-images/image-wonderwords2.png"
+import roleGameImg from "./images/data-images/role-game.png"
+import tingDogImg from "./images/data-images/tingdog.png"
+import warGameImg from "./images/data-images/war-game.png"
+import colorSchemeGeneratorImg from "./images/data-images/colorschemegenerator.png"
+import foodOrderingImg from "./images/data-images/food-ordering.png"
+import memeGeneratorImg from "./images/data-images/meme-generator.png"
+import movieWatchlistImg from "./images/data-images/movie-watchlist.png"
+import pictureWebsiteImg from "./images/data-images/picture-website.png"
+
 
 export default [
   
@@ -90,7 +99,7 @@ export default [
     slug: "film-api",
     type: "api",
     projectImg:
-      "https://user-images.githubusercontent.com/66684175/197422968-f673e3b3-586c-4d5a-9abd-dc200e4ed37a.png",
+      "https://user-images.githubusercontent.com/66684175/229866597-7d21dd3c-c00f-4b7f-8fee-46f632d4097e.PNG",
     title: "Film API",
     description: "A restful API - Film Website",
     fullDescription: "A restful API - Film Website with MongoDB",
@@ -102,8 +111,7 @@ export default [
   {
     slug: "picture-website",
     type: "website",
-    projectImg:
-      "https://user-images.githubusercontent.com/66684175/229860183-5bde3fa3-720e-4fd0-8050-ef0723d9385f.PNG",
+    projectImg:pictureWebsiteImg,
     title: "Picture Website",
     description: "Seaching picture via Pexels API",
     fullDescription:"The purpose of practicing React is to implement picture searching via the Pexels API.",
@@ -142,8 +150,7 @@ export default [
   {
     slug: "war-game",
     type: "website",
-    projectImg:
-      "https://user-images.githubusercontent.com/66684175/229866581-1c288413-d769-43c5-baac-571ca3a5a314.PNG",
+    projectImg:warGameImg,
     title: "War Game",
     description: "A card game made using the deckofcardsapi",
     fullDescription:"A mini project designed solely for practicing JavaScript.",
@@ -168,8 +175,7 @@ export default [
   {
     slug: "movie-watchlist",
     type: "website",
-    projectImg:
-      "https://user-images.githubusercontent.com/66684175/229866597-7d21dd3c-c00f-4b7f-8fee-46f632d4097e.PNG",
+    projectImg:movieWatchlistImg,
     title: "Movie Watchlist",
     description: "A movies search & watchlist via OMDb API",
     fullDescription:"A mini project designed solely for practicing JavaScript.",
@@ -208,8 +214,7 @@ export default [
   {
     slug: "colorschemegenerator",
     type: "website",
-    projectImg:
-      "https://user-images.githubusercontent.com/66684175/229868304-0efb8dfe-b2d6-4210-9597-abf707183652.PNG",
+    projectImg:colorSchemeGeneratorImg,
     title: "colorSchemeGenerator",
     description: "Genera the colour scheme via the colorAPI",
     fullDescription:"A mini project designed solely for practicing JavaScript.",
@@ -221,8 +226,7 @@ export default [
   {
     slug: "tingdog",
     type: "website",
-    projectImg:
-      "https://user-images.githubusercontent.com/66684175/229869488-f7929025-9b5c-47d9-89b5-3b82e8c825d2.PNG",
+    projectImg:tingDogImg,
     title: "Tingdog",
     description:
       "Tindog is a social app to understand its purpose is to give the suggestions of dogs and their owners. By location, the dog breed and other dog breeding pairings",
@@ -235,8 +239,7 @@ export default [
   {
     slug: "meme-generator",
     type: "website",
-    projectImg:
-      "https://user-images.githubusercontent.com/66684175/229871481-eef4c352-2011-4f5c-8c12-9f9ce71984e2.PNG",
+    projectImg:memeGeneratorImg,
     title: "Meme Generator",
     description: "A meme generator",
     fullDescription:"A mini project designed solely for practicing JavaScript.",
@@ -248,8 +251,7 @@ export default [
   {
     slug: "food-ordering",
     type: "website",
-    projectImg:
-      "https://user-images.githubusercontent.com/66684175/230899639-d6f8440f-a213-47e6-a8ce-92b91951986a.PNG",
+    projectImg:foodOrderingImg,
     title: "Food Ordering",
     description:
       "A Javascript exercise that orders the food and counts the total price, then purchases.",
@@ -262,8 +264,7 @@ export default [
   {
     slug: "role-game",
     type: "website",
-    projectImg:
-      "https://user-images.githubusercontent.com/66684175/230899651-b3e5938a-65a1-404f-932c-e48a39d96345.PNG",
+    projectImg:roleGameImg,
     title: "Role Game",
     description:
       "A Javascript exercise that hero fighting with demons simple game.",
