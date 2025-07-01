@@ -1,4 +1,4 @@
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6c639eea-40e5-40c3-8200-4ca5f1ea5ef9/deploy-status)](https://app.netlify.com/projects/darling-starlight-9ecea6/deploys)
 
 # Personal Website
 
