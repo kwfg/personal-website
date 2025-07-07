@@ -9,6 +9,9 @@ This site showcases my projects, skills, and background in web development.
 
 >  Live Demo: [https://garykw.com](https://garykw.com)
 
+![螢幕擷取畫面 2025-07-08 012228](https://github.com/user-attachments/assets/8ee086f5-dd3d-4e23-b025-ca179b5bf000)
+
+
 ---
 
 ## Features
