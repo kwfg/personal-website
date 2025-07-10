@@ -61,10 +61,10 @@ export default [
   title: "BACKROOM LOOP",
   description: "A psychological horror game released on Steam.",
   fullDescription:
-    "BACKROOM LOOP is a psychological horror game set in an endless office-like maze. I was involved in QA testing, bug reporting, and helped design puzzle flow and spatial layouts for several levels. This game is available on <a href='https://store.steampowered.com/app/3672540/BACKROOM_LOOP/' target='_blank'>Steam</a>.",
+    "BACKROOM LOOP is a psychological horror game set in an endless office-like maze. I was involved in QA testing, bug reporting. This game is available on <a href='https://store.steampowered.com/app/3672540/BACKROOM_LOOP/' target='_blank'>Steam</a>.",
   githubUrl: "",
   liveUrl: "https://youtu.be/o5LWAysrkQQ",
-  skill: ["GameQA", "LevelDesign", "Unity"],
+  skill: ["GameQA", "Unity"],
   isLive: true,
   isFeatured: true,
   },
