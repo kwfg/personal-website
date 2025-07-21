@@ -113,7 +113,7 @@ export default [
     slug: "film-api",
     type: "api",
     projectImg:
-      "https://user-images.githubusercontent.com/66684175/229866597-7d21dd3c-c00f-4b7f-8fee-46f632d4097e.PNG",
+      "https://user-images.githubusercontent.com/66684175/197422968-f673e3b3-586c-4d5a-9abd-dc200e4ed37a.png",
     title: "Film API",
     description: "A restful API - Film Website",
     fullDescription: "A restful API - Film Website with MongoDB",
